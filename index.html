@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="hiro_6_works — 名古屋を拠点に、HTML・CSS・JavaScriptによるウェブサイト制作を行っています。">
+  <title>hiro_6_works | Web制作ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="#" class="nav-logo">hiro_6_works</a>
+    <ul class="nav-links">
+      <li><a href="#works">制作実績</a></li>
+      <li><a href="#skills">スキル</a></li>
+      <li><a href="#profile">プロフィール</a></li>
+    </ul>
+  </nav>
+
+  <canvas id="particles" style="position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;opacity:0.4;"></canvas>
+
+  <div class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-label">Web Creator / Nagoya, Japan</div>
+    <h1 class="hero-name">hiro_<em>6</em>_works</h1>
+    <div class="hero-meta">
+      <p class="hero-desc">HTML・CSS・JavaScriptを使って、目的に合ったウェブサイトを制作しています。デザインから実装まで一貫してお任せください。</p>
+      <span class="hero-scroll">scroll ↓</span>
+    </div>
+  </div>
+
+  <section id="works">
+    <div class="section-header">
+      <span class="section-title">制作実績</span>
+      <span class="section-num">01</span>
+    </div>
+    <div class="works-grid">
+
+      <div class="work-card fade-in">
+        <img class="work-thumb" src="https://chihiro7-28.github.io/my-jdm-tour/images/DSC02982.JPG" alt="JDM Nagoya">
+        <div class="work-num">001</div>
+        <div class="work-title">JDM Nagoya<br>JZX100 Chaser Tour</div>
+        <div class="work-desc">名古屋を舞台にしたAirbnb体験ツアーの紹介サイト。JDMカルチャーの雰囲気を活かしたダークデザインで、Airbnbへの予約導線まで一貫して設計。</div>
+        <div class="work-footer">
+          <div class="work-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JS</span>
+          </div>
+          <a class="work-link" href="https://chihiro7-28.github.io/my-jdm-tour/" target="_blank" rel="noopener">
+            サイトを見る →
+          </a>
+        </div>
+      </div>
+
+      <div class="work-card fade-in">
+        <img class="work-thumb" src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&q=80" alt="貸切バス会社コーポレートサイト">
+        <div class="work-num">002</div>
+        <div class="work-title">Charter Bus<br>Corporate Site</div>
+        <div class="work-desc">貸切バス会社向けコーポレートサイト。料金案内・バス紹介・採用情報など全12ページ構成。スクロールアニメーション・マーキー・カウンター・3Dカードチルトなど多数のインタラクションを実装。</div>
+        <div class="work-footer">
+          <div class="work-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JS</span>
+          </div>
+          <a class="work-link" href="https://chihiro7-28.github.io/Sample02/index.html" target="_blank" rel="noopener">
+            サイトを見る →
+          </a>
+        </div>
+      </div>
+
+      <div class="work-card wip fade-in">
+        <img class="work-thumb" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" alt="Coming Soon" style="filter:brightness(0.5) grayscale(0.4);">
+        <div class="work-num">003</div>
+        <div class="work-title">Coming Soon</div>
+        <div class="work-desc">制作中</div>
+        <div class="work-footer">
+          <span class="wip-badge">COMING SOON</span>
+        </div>
+      </div>
+
+      <div class="work-card wip fade-in">
+        <img class="work-thumb" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80" alt="Coming Soon" style="filter:brightness(0.5) grayscale(0.4);">
+        <div class="work-num">004</div>
+        <div class="work-title">Coming Soon</div>
+        <div class="work-desc">制作中</div>
+        <div class="work-footer">
+          <span class="wip-badge">COMING SOON</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-header">
+      <span class="section-title">スキル</span>
+      <span class="section-num">02</span>
+    </div>
+    <div class="skills-list">
+      <div class="skill-item fade-in">
+        <div class="skill-name">HTML</div>
+        <div class="skill-note">セマンティックな構造設計・OGP対応</div>
+      </div>
+      <div class="skill-item fade-in">
+        <div class="skill-name">CSS</div>
+        <div class="skill-note">レスポンシブ・アニメーション・Grid / Flex</div>
+      </div>
+      <div class="skill-item fade-in">
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-note">インタラクション・スクロール演出</div>
+      </div>
+      <div class="skill-item fade-in">
+        <div class="skill-name">GitHub Pages</div>
+        <div class="skill-note">デプロイ・バージョン管理</div>
+      </div>
+      <div class="skill-item fade-in">
+        <div class="skill-name">レスポンシブ対応</div>
+        <div class="skill-note">スマホ・タブレット・PC 全デバイス対応</div>
+      </div>
+      <div class="skill-item fade-in">
+        <div class="skill-name">SEO 基礎対応</div>
+        <div class="skill-note">メタタグ・OGP・パフォーマンス意識</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="profile">
+    <div class="section-header">
+      <span class="section-title">プロフィール</span>
+      <span class="section-num">03</span>
+    </div>
+    <div class="profile-grid">
+      <div class="profile-text fade-in">
+        <h2>hiro_6_works</h2>
+        <p>名古屋を拠点に活動するウェブ制作者。HTML / CSS / JavaScriptを使ったサイト制作が得意です。</p>
+        <p>現在はプログラマーとして就業しながら、副業としてウェブ制作のご依頼をお受けしています。</p>
+        <p>クライアントの目的に合ったデザインと実装を、丁寧にお届けします。現在お仕事のご依頼を受け付けています。</p>
+      </div>
+      <div class="profile-info fade-in">
+        <div class="info-row">
+          <span>LOCATION</span>
+          <span>名古屋 / Nagoya, Japan</span>
+        </div>
+        <div class="info-row">
+          <span>SKILLS</span>
+          <span>HTML / CSS / JavaScript</span>
+        </div>
+        <div class="info-row">
+          <span>LANGUAGE</span>
+          <span>日本語 / English</span>
+        </div>
+        <div class="info-row">
+          <span>STATUS</span>
+          <span>受付中</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 hiro_6_works</p>
+    <p>Nagoya, Japan</p>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 80);
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    const canvas = document.getElementById('particles');
+    const ctx = canvas.getContext('2d');
+    let W, H, particles;
+
+    function resize() {
+      W = canvas.width = window.innerWidth;
+      H = canvas.height = window.innerHeight;
+    }
+
+    function initParticles() {
+      particles = Array.from({ length: 80 }, () => ({
+        x: Math.random() * W,
+        y: Math.random() * H,
+        r: Math.random() * 1.5 + 0.3,
+        dx: (Math.random() - 0.5) * 0.3,
+        dy: (Math.random() - 0.5) * 0.3,
+        alpha: Math.random() * 0.5 + 0.1
+      }));
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, W, H);
+      particles.forEach(p => {
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(240,240,240,${p.alpha})`;
+        ctx.fill();
+        p.x += p.dx;
+        p.y += p.dy;
+        if (p.x < 0) p.x = W;
+        if (p.x > W) p.x = 0;
+        if (p.y < 0) p.y = H;
+        if (p.y > H) p.y = 0;
+      });
+      requestAnimationFrame(draw);
+    }
+
+    resize();
+    initParticles();
+    draw();
+    window.addEventListener('resize', () => { resize(); initParticles(); });
+  </script>
+
+</body>
+</html>
